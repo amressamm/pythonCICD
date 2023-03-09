@@ -11,4 +11,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - run: dir
+      - run: ls -last
       - run: ./test.py
